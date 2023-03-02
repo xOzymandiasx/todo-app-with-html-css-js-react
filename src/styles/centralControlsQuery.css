@@ -1,0 +1,12 @@
+.control-container-query {
+	color: hsl(236, 9%, 61%);
+	font-size: 0.8rem;
+	width: 27rem;
+	height: 3rem;
+	margin: 0.5rem;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 1.5rem;
+}

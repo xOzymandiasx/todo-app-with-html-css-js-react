@@ -1,0 +1,35 @@
+.control-container {
+  color: hsl(236, 9%, 61%);
+  padding: 1rem;
+  font-size: 0.8rem;
+  width: 27rem;
+  height: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  user-select: none;
+}
+
+.central-controls {
+  display: flex;
+  column-gap: 0.8rem;
+}
+
+.controls {
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+}
+
+.hover-light:hover {
+  color: black;
+}
+
+.hover-dark:hover {
+  color: white;
+}
+
+@media screen and (max-width: 550px) {
+  .control-container {
+    justify-content: space-between;
+  }
+}

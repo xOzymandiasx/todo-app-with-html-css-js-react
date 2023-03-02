@@ -1,0 +1,77 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 4rem;
+  border-bottom: 1px solid hsl(234, 11%, 52%);
+}
+
+.check-data-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  padding: 1rem;
+}
+
+.text-container {
+  max-width: 20rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  overflow-wrap: anywhere;
+}
+
+.uncheck-icon {
+  color: "hsl(234, 11%, 52%)";
+  cursor: pointer;
+}
+
+.uncheck-icon:hover {
+  color: hsl(280, 87%, 65%);
+}
+
+.check-icon {
+  border-radius: 10px;
+  background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+  cursor: pointer;
+}
+
+.delete-button-container {
+  display: flex;
+  padding: 1rem;
+}
+
+.complete-task {
+  text-decoration: line-through;
+  color: hsl(236, 9%, 61%);
+}
+
+.white-text {
+  color: white;
+}
+
+.black-text {
+  color: black;
+}
+
+@keyframes inAnimation {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes outAnimation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
